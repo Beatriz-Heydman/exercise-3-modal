@@ -7,6 +7,6 @@ buttonOpenModal.addEventListener("click", () => {
 
 modalContainer.addEventListener("click", (event) => {
   if (event.target.className === "modal_container") {
-    modalContainer.style.transform = "none";
+    modalContainer.style.display = "none";
   }
 });
